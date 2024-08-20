@@ -1,1 +1,1 @@
-# Jogo---Pedra-Papel-e-Tesoura
+# Jogo - Pedra, Papel e Tesoura
