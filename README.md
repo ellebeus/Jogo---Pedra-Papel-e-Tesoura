@@ -9,4 +9,4 @@
 # 👩‍💻 Desenvolvimento do jogo
 O jogo foi desenvolvido a partir dos estudos sobre Python durante as aulas de Técnico por uma aluna do 2° do E.M.
 
-<img src="jogo_terminal.png" width="700px" higth="700px">
+<img src="jogo_terminal.png" width="500px" higth="500px">
