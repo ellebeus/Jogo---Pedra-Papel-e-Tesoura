@@ -1,10 +1,10 @@
 import random
 def play():
-    user = input("Qual a sua escolha? 'r' para pedra, 'p' para papel, 't' para tesoura\n")
-    if user not in ['r', 'p', 't']:
+    user = input("Qual a sua escolha? 'pedra', 'papel', 'tesoura'\n")
+    if user not in ['pedra', 'papel', 'tesoura']:
         return "Escolha inválida. Tente novamente."
 
-    computer = random.choice(['r', 'p', 't'])
+    computer = random.choice(['pedra', 'papel', 'tesoura'])
 
     if user == computer:
         print("O computador escolheu {}!".format(computer))
@@ -17,8 +17,8 @@ def play():
     print("O computador escolheu {}!".format(computer))
     return 'Você perdeu!'
 def is_win(player, opponent):
-    if (player == 'r' and opponent == 't') or (player == 't' and opponent == 'p') \
-        or (player == 'p' and opponent == 'r'):
+    if (player == 'pedra' and opponent == 'tesoura') or (player == 'tesoura' and opponent == 'papel') \
+        or (player == 'papel' and opponent == 'pedra'):
         return True
 
 print(play())
